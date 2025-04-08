@@ -1,4 +1,4 @@
-# pustota.nvim
+# nothing.nvim
 
 A clean, minimalist Neovim colorscheme inspired by the original [pustota VSCode theme](https://github.com/sobolevn/pustota). Designed to keep you focused on writing code without visual distractions.
 
@@ -53,7 +53,7 @@ Example with [lazy.nvim]:
 
 ```lua
 {
-    "pustota-theme/pustota.nvim",
+    "Alchemmist/nothing.nvim",
     version = "*",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
 },
@@ -74,7 +74,7 @@ return {
             },
         },
         config = function(_, opts)
-            require("pustota").ibl_setup()  -- Optional built-in integration
+            require("nothing").ibl_setup()  -- Optional built-in integration
             require("ibl").setup(opts)
         end,
     },
@@ -85,11 +85,11 @@ return {
 Once installed, select it as your colorscheme:
 
 ```vim
-colorscheme pustota
+colorscheme nothing
 ```
 or in Lua:
 ```lua
-vim.cmd.colorscheme("pustota")
+vim.cmd.colorscheme("nothing")
 ```
 
 --------------------------------------------------------------------------------
