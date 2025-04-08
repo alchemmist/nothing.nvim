@@ -3,9 +3,9 @@ return function()
     local theme = {}
 
     theme.normal = {
-        a = { bg = C.black, fg = C.gray },
-        b = { bg = C.black, fg = C.gray },
-        c = { bg = C.black, fg = C.gray }
+        a = { bg = C.transparent, fg = C.gray },
+        b = { bg = C.transparent, fg = C.gray },
+        c = { bg = C.transparent, fg = C.gray }
     }
 
     theme.insert = {

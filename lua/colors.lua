@@ -11,4 +11,6 @@ return {
 	lgray = "#B9B9B9",
 	indent = "#181A1D",
 	visual = "#1C2631",
+
+	transparent = "NONE",
 }
