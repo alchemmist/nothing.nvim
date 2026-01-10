@@ -3,3 +3,5 @@
 ((interpolation) @interpolation)
 ((none) (#eq? none "None")) @NonePy
 ((call function: (identifier) @assertpy) (#eq? @assertpy "assert_that"))
+((identifier) @boolean
+  (#match? @boolean "^(True|False)$"))
